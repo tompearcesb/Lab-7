@@ -1,0 +1,9 @@
+print("Saves the string of numbers to a file. . .")
+
+file = open("file.txt", "w+")
+for i in range(1, 21):
+    if i%4 == 0:
+        file.write(str(i)+" ")
+
+file.close()
+print("Changes saved successfully")
