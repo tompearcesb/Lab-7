@@ -1,0 +1,7 @@
+  
+print("Reading data from a file...")
+
+file = open("plik.txt", "r+")
+print(file.read())
+file.close()
+print("Reading completed")
